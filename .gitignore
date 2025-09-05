@@ -2,3 +2,9 @@ node_modules/
 /pkg
 /pkg.tgz
 /DEBUG-*
+/dist
+.DS_Store
+.package.lock
+.nvmrc
+ .yarn/*
+ !.yarn/releases
