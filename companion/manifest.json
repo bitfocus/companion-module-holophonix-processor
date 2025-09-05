@@ -1,0 +1,30 @@
+{
+  "id": "holophonix-processor",
+  "name": "holophonix-processor",
+  "shortname": "holophonix",
+  "description": "Holophonix Processor – WebSocket + OSC scaffolding",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "git+https://github.com/bitfocus/companion-module-holophonix-processor.git",
+  "bugs": "https://github.com/bitfocus/companion-module-holophonix-processor/issues",
+  "maintainers": [
+    { "name": "Bitfocus Community" }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node18",
+    "api": "nodejs-ipc",
+    "apiVersion": "0.0.0",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "Holophonix",
+  "products": [
+    "Processor"
+  ],
+  "keywords": [
+    "Protocol",
+    "WebSocket",
+    "OSC",
+    "Holophonix"
+  ]
+}

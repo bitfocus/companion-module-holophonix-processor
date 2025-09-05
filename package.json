@@ -1,0 +1,25 @@
+{
+  "name": "companion-module-holophonix-processor",
+  "version": "0.1.0",
+  "main": "main.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/companion-module-holophonix-processor.git"
+  },
+  "dependencies": {
+    "@companion-module/base": "~1.12.0",
+    "object-path": "^0.11.8",
+    "ws": "^8.18.2",
+    "osc": "^2.4.4"
+  },
+  "devDependencies": {
+    "@companion-module/tools": "^2.3.0"
+  },
+  "prettier": "@companion-module/tools/.prettierrc.json"
+}
