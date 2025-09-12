@@ -1,0 +1,19 @@
+{
+    "Ethernet": {
+        "netInfo": {
+            "address": "192.168.100.134",
+            "netmask": "255.255.255.0",
+            "family": "IPv4",
+            "mac": "f8:0d:ac:2a:67:d3",
+            "internal": false,
+            "cidr": "192.168.100.134/24"
+        },
+        "mode": "dhcp",
+        "active": false,
+        "gateway": "",
+        "errorDetected": true,
+        "errorMessage": "from Core: Command failed: ip r\n'ip' n'est pas reconnu en tant que commande interne\r\nou externe, un programme ex�cutable ou un fichier de commandes.\r\n",
+        "type": "Unknown",
+        "modelName": ""
+    }
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "path": "/master/name",
+    "value": "Master",
+    "type": "string",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/color",
+    "value": "0 0 0\r\n                                                        1",
+    "type": "number[]",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "path": "/master/numinputs",
+    "value": 0,
+    "type": "number\r\n                                                        (min: 0)",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/annotation",
+    "value": "false",
+    "type": "string",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/lock",
+    "value": "true",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/bypass",
+    "value": 0,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/gain",
+    "value": "false",
+    "type": "number",
+    "min": -20,
+    "max": 20
+  },
+  {
+    "path": "/master/equalizer/filter/1/active",
+    "value": 50,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/1/freq",
+    "value": 2,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/1/order",
+    "value": "true",
+    "type": "number",
+    "min": 2,
+    "max": 20
+  },
+  {
+    "path": "/master/equalizer/filter/2/active",
+    "value": 100,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/2/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/2/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/2/q",
+    "value": "true",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/3/active",
+    "value": 500,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/3/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/3/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  }
+]

@@ -1,0 +1,223 @@
+{
+    "manifest": {
+        "widthMeters": 20,
+        "center": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "wireframe": false,
+        "scale": 1,
+        "defaultPreset": null,
+        "externalOscIp": {
+            "sfVeKXhQpcD2p0AjFSJOc": {
+                "name": "OSC Out",
+                "port": 1234,
+                "ip": "127.0.0.1",
+                "active": true,
+                "coordinateMode": "aed",
+                "externalOscDiscared": []
+            }
+        },
+        "externalOscInputPort": 4003,
+        "guiVersion": "2.3.1",
+        "performanceMode": false,
+        "admScale": 1,
+        "created": "2025-09-08T07:21:34.368Z",
+        "model3DFileName": "model3D.glb",
+        "lastMixingConsoleIP": null
+    },
+    "presetList": [
+        {
+            "type": "file",
+            "name": "module_test",
+            "nameWithExtension": "module_test.hol",
+            "extension": "hol",
+            "modified": "Mon Sep 08 2025 09:22:23 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:22:23 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\Presets\\module_test.hol",
+            "url": "project/Presets/module_test.hol",
+            "lock": false,
+            "outputs": 128
+        }
+    ],
+    "hrtfList": [
+        {
+            "type": "file",
+            "name": "IRC_1040_512order_fir_44100",
+            "nameWithExtension": "IRC_1040_512order_fir_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_512order_fir_44100.sofa",
+            "url": "project/HRTF/IRC_1040_512order_fir_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_C_44100",
+            "nameWithExtension": "IRC_1040_C_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_C_44100.sofa",
+            "url": "project/HRTF/IRC_1040_C_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_itd_12order_biquads_44100",
+            "nameWithExtension": "IRC_1040_itd_12order_biquads_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_itd_12order_biquads_44100.sofa",
+            "url": "project/HRTF/IRC_1040_itd_12order_biquads_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_itd_24order_biquads_44100",
+            "nameWithExtension": "IRC_1040_itd_24order_biquads_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_itd_24order_biquads_44100.sofa",
+            "url": "project/HRTF/IRC_1040_itd_24order_biquads_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS12_44100",
+            "nameWithExtension": "IRC_1040_I_SOS12_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS12_44100.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS12_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS12_48000",
+            "nameWithExtension": "IRC_1040_I_SOS12_48000.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS12_48000.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS12_48000.sofa",
+            "hrtfSamplingRate": 48000
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS12_96000",
+            "nameWithExtension": "IRC_1040_I_SOS12_96000.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS12_96000.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS12_96000.sofa",
+            "hrtfSamplingRate": 96000
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS24_44100",
+            "nameWithExtension": "IRC_1040_I_SOS24_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS24_44100.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS24_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS24_48000",
+            "nameWithExtension": "IRC_1040_I_SOS24_48000.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS24_48000.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS24_48000.sofa",
+            "hrtfSamplingRate": 48000
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS24_96000",
+            "nameWithExtension": "IRC_1040_I_SOS24_96000.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS24_96000.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS24_96000.sofa",
+            "hrtfSamplingRate": 96000
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS36_44100",
+            "nameWithExtension": "IRC_1040_I_SOS36_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS36_44100.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS36_44100.sofa",
+            "hrtfSamplingRate": 44100
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS36_48000",
+            "nameWithExtension": "IRC_1040_I_SOS36_48000.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS36_48000.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS36_48000.sofa",
+            "hrtfSamplingRate": 48000
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_I_SOS36_96000",
+            "nameWithExtension": "IRC_1040_I_SOS36_96000.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_I_SOS36_96000.sofa",
+            "url": "project/HRTF/IRC_1040_I_SOS36_96000.sofa",
+            "hrtfSamplingRate": 96000
+        },
+        {
+            "type": "file",
+            "name": "IRC_1040_R_44100",
+            "nameWithExtension": "IRC_1040_R_44100.sofa",
+            "extension": "sofa",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\HRTF\\IRC_1040_R_44100.sofa",
+            "url": "project/HRTF/IRC_1040_R_44100.sofa",
+            "hrtfSamplingRate": 44100
+        }
+    ],
+    "venueModelList": [
+        {
+            "type": "file",
+            "name": "model3D",
+            "nameWithExtension": "model3D.glb",
+            "extension": "glb",
+            "modified": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "created": "Mon Sep 08 2025 09:21:34 GMT+0200 (heure d’été d’Europe centrale)",
+            "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion\\Venue\\Model\\model3D.glb",
+            "url": "project/Venue\\Model/model3D.glb"
+        }
+    ],
+    "systemFullPath": "C:\\Users\\Administrateur\\Documents\\HOLOPHONIX Projects\\module_companion"
+}

@@ -1,0 +1,723 @@
+[
+  {
+    "path": "/master/name",
+    "value": "Master",
+    "type": "string",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/color",
+    "value": "0 0 0 1",
+    "type": "number[]",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "path": "/master/numinputs",
+    "value": 0,
+    "type": "number (min:\r\n                                    0)",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/annotation",
+    "value": "false",
+    "type": "string",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/lock",
+    "value": "true",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/bypass",
+    "value": 0,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/gain",
+    "value": "false",
+    "type": "number",
+    "min": -20,
+    "max": 20
+  },
+  {
+    "path": "/master/equalizer/filter/1/active",
+    "value": 50,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/1/freq",
+    "value": 2,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/1/order",
+    "value": "true",
+    "type": "number",
+    "min": 2,
+    "max": 20
+  },
+  {
+    "path": "/master/equalizer/filter/2/active",
+    "value": 100,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/2/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/2/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/2/q",
+    "value": "true",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/3/active",
+    "value": 500,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/3/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/3/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/3/q",
+    "value": "true",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/4/active",
+    "value": 1000,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/4/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/4/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/4/q",
+    "value": "true",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/5/active",
+    "value": 2000,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/5/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/5/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/5/q",
+    "value": "true",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/6/active",
+    "value": 5000,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/6/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/6/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/6/q",
+    "value": "true",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/7/active",
+    "value": 10000,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/7/freq",
+    "value": 0,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/7/gain",
+    "value": 1,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/equalizer/filter/7/q",
+    "value": "false",
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/equalizer/filter/8/active",
+    "value": 16000,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/equalizer/filter/8/freq",
+    "value": 2,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/equalizer/filter/8/order",
+    "value": 10.01,
+    "type": "number",
+    "min": 2,
+    "max": 20
+  },
+  {
+    "path": "/master/dynamics/attack",
+    "value": 30,
+    "type": "number",
+    "min": 0.01,
+    "max": 3000
+  },
+  {
+    "path": "/master/dynamics/release",
+    "value": 0,
+    "type": "number",
+    "min": 0,
+    "max": 7000
+  },
+  {
+    "path": "/master/dynamics/lookahead",
+    "value": -30,
+    "type": "number",
+    "min": 0,
+    "max": 50
+  },
+  {
+    "path": "/master/dynamics/compressor/threshold",
+    "value": 1,
+    "type": "number",
+    "min": -60,
+    "max": 20
+  },
+  {
+    "path": "/master/dynamics/compressor/ratio",
+    "value": -60,
+    "type": "number",
+    "min": 1,
+    "max": 100
+  },
+  {
+    "path": "/master/dynamics/expander/threshold",
+    "value": 1,
+    "type": "number",
+    "min": -60,
+    "max": 20
+  },
+  {
+    "path": "/master/dynamics/expander/ratio",
+    "value": 0,
+    "type": "number",
+    "min": 0.01,
+    "max": 1
+  },
+  {
+    "path": "/master/dynamics/makeup",
+    "value": "multi mono",
+    "type": "number",
+    "min": -40,
+    "max": 40
+  },
+  {
+    "path": "/master/dynamics/link",
+    "value": "true",
+    "type": "string (multi mono |\r\n                                    link all | link to 1st)",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/dynamics/bypass",
+    "value": 0,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/dynamics/reduction",
+    "value": "true",
+    "type": "number",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/dynamics/grid/visible",
+    "value": "0.5 0.5 0.5 1",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/dynamics/grid/color",
+    "value": "true",
+    "type": "number[]",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "path": "/master/dynamics/curve/fill",
+    "value": "0 0 0 1",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/dynamics/curve/color",
+    "value": 1,
+    "type": "number[]",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "path": "/master/dynamics/curve/thickness",
+    "value": "1 1 1 0",
+    "type": "number",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/dynamics/background/color",
+    "value": "0 0 0 0.6",
+    "type": "number[]",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "path": "/master/dynamics/foreground/color",
+    "value": "Master",
+    "type": "number[]",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "path": "/master/dynamics/title",
+    "value": "true",
+    "type": "string",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/visible",
+    "value": 20,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/trim",
+    "value": 0,
+    "type": "number",
+    "min": -80,
+    "max": 30
+  },
+  {
+    "path": "/master/gain",
+    "value": 20,
+    "type": "number",
+    "min": -60,
+    "max": 12
+  },
+  {
+    "path": "/master/gain/ramptime",
+    "value": 0,
+    "type": "number",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/mute",
+    "value": "true",
+    "type": "integer",
+    "min": 0,
+    "max": 2
+  },
+  {
+    "path": "/master/levels/input",
+    "value": "false",
+    "type": "number[]",
+    "min": -120,
+    "max": 12
+  },
+  {
+    "path": "/master/levels/input/visible",
+    "value": "peak",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/levels/input/post",
+    "value": "true",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/levels/input/mode",
+    "value": "true",
+    "type": "string (rms |\r\n                                    peak)",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/levels/output",
+    "value": "peak",
+    "type": "number[]",
+    "min": -120,
+    "max": 12
+  },
+  {
+    "path": "/master/levels/output/visible",
+    "value": "128 128",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/levels/output/post",
+    "value": "true",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/levels/output/mode",
+    "value": 0,
+    "type": "string (rms |\r\n                                    peak)",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/numio",
+    "value": "false",
+    "type": "[integer] (length:\r\n                                    2)",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/bypass",
+    "value": 50,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/gain",
+    "value": 2,
+    "type": "number",
+    "min": -20,
+    "max": 20
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/1/active",
+    "value": "true",
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/1/freq",
+    "value": 100,
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/1/order",
+    "value": 0,
+    "type": "number",
+    "min": 2,
+    "max": 20
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/2/active",
+    "value": 1,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/2/freq",
+    "value": "true",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/2/gain",
+    "value": 500,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/2/q",
+    "value": 0,
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/3/active",
+    "value": 1,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/3/freq",
+    "value": "true",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/3/gain",
+    "value": 1000,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/3/q",
+    "value": 0,
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/4/active",
+    "value": 1,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/4/freq",
+    "value": "true",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/4/gain",
+    "value": 2000,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/4/q",
+    "value": 0,
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/5/active",
+    "value": 1,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/5/freq",
+    "value": "true",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/5/gain",
+    "value": 5000,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/5/q",
+    "value": 0,
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/6/active",
+    "value": 1,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/6/freq",
+    "value": "true",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/6/gain",
+    "value": 10000,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/6/q",
+    "value": 0,
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/7/active",
+    "value": 1,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/7/freq",
+    "value": "false",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/7/gain",
+    "value": 16000,
+    "type": "number",
+    "min": -30,
+    "max": 30
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/7/q",
+    "value": 2,
+    "type": "number",
+    "min": 0.25,
+    "max": 100
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/8/active",
+    "value": 0,
+    "type": "boolean",
+    "min": null,
+    "max": null
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/8/freq",
+    "value": "true",
+    "type": "number",
+    "min": 30,
+    "max": 22000
+  },
+  {
+    "path": "/master/channel/1/equalizer/filter/8/order",
+    "value": 0,
+    "type": "number",
+    "min": 2,
+    "max": 20
+  },
+  {
+    "path": "/master/channel/1/delay",
+    "value": "false",
+    "type": "number",
+    "min": null,
+    "max": null
+  }
+]
