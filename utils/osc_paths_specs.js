@@ -36,6 +36,16 @@ function extractParametersFromFile(filePath, absBase) {
       subsection = parts[1]
       subsubsection = parts[2].replace(/\.json$/i, '')
     }
+    // Helper: expand "bus/[A-B-C-D-E-F-G-H]" into concrete bus letters when under SOURCES domain
+    const expandBusShorthand = (pStr) => {
+      const token = '/bus/[A-B-C-D-E-F-G-H]'
+      if (domain === 'SOURCES' && typeof pStr === 'string' && pStr.includes(token)) {
+        const buses = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+        return buses.map((b) => pStr.replace(token, `/bus/${b}`))
+      }
+      return [pStr]
+    }
+
     if (Array.isArray(data)) {
       for (const item of data) {
         const p = item?.Parameter
@@ -44,7 +54,11 @@ function extractParametersFromFile(filePath, absBase) {
         const args = item?.args || '--'
         const description = item?.description || ''
         const unit = item?.unit || ''
-        if (typeof p === 'string' && p.startsWith('/')) params.push({ path: p, section, settable, args, description, unit, domain, subsection, subsubsection })
+        if (typeof p === 'string' && p.startsWith('/')) {
+          for (const px of expandBusShorthand(p)) {
+            params.push({ path: px, section, settable, args, description, unit, domain, subsection, subsubsection })
+          }
+        }
       }
     }
     return params

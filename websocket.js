@@ -8,7 +8,7 @@ export function setupWebSocket(instance) {
   instance.wsResponses = new Map()
 
   instance.maybeReconnectWs = function maybeReconnectWs() {
-    const host = (this.config?.ws_host || '').trim()
+    const host = (this.config?.host || '').trim()
     if (this.isInitialized && this.config.enable_websocket && this.config.ws_reconnect && host) {
       if (this.wsReconnectTimer) clearTimeout(this.wsReconnectTimer)
       this.wsReconnectTimer = setTimeout(() => this.initWebSocket(), 5000)
@@ -16,7 +16,7 @@ export function setupWebSocket(instance) {
   }
 
   instance.initWebSocket = function initWebSocket() {
-    const host = (this.config?.ws_host || '').trim()
+    const host = (this.config?.host || '').trim()
 
     // Always close any existing socket first
     if (this.ws) {

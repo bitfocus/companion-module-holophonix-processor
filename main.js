@@ -87,7 +87,7 @@ class HolophonixProcessorInstance extends InstanceBase {
     if (!this.config.fbsuffix) this.config.fbsuffix = ''
 
     // Re-init transports if changed
-    if (old.ws_host !== config.ws_host || old.enable_websocket !== config.enable_websocket || old.ws_reconnect !== config.ws_reconnect) this.initWebSocket()
+    if (old.host !== config.host || old.enable_websocket !== config.enable_websocket || old.ws_reconnect !== config.ws_reconnect) this.initWebSocket()
 
     const oscChanged = old.host !== config.host || old.targetPort !== config.targetPort || old.listen !== config.listen || old.feedbackPort !== config.feedbackPort
     if (oscChanged) await this.initOSC()

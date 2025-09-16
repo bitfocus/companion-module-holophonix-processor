@@ -15,7 +15,6 @@ export function getConfigFields() {
 
     // WebSocket section
     { type: 'checkbox', id: 'enable_websocket', label: 'Enable WebSocket', tooltip: 'If disabled, this module will operate using OSC only.', width: 6, default: false },
-    { type: 'textinput', id: 'ws_host', label: 'Holophonix Hostname or IP (WS)', tooltip: 'Hostname or IPv4/IPv6 only. Port is fixed to 29175 and scheme is ws://', width: 12, regex: Regex.HOSTNAME, isVisible: (opt) => opt.enable_websocket === true },
     { type: 'checkbox', id: 'ws_reconnect', label: 'WS Reconnect', tooltip: 'Reconnect on WebSocket error (after 5 secs)', width: 6, default: true, isVisible: (opt) => opt.enable_websocket === true },
     { type: 'dropdown', id: 'append_new_line', label: 'WS Append termination character', choices: [
       { id: '', label: 'None' }, { id: 'rn', label: 'Return+Newline' }, { id: 'nr', label: 'Newline+Return' }, { id: 'r', label: 'Return' }, { id: 'n', label: 'Newline' },
@@ -27,7 +26,7 @@ export function getConfigFields() {
     { type: 'textinput', id: 'fbsuffix', label: 'Feedback Suffix', default: '', width: 6, regex: '/^[\w\.\-_+\/\\\$ ]*$/', isVisible: (opt) => opt.enable_websocket === true },
 
     // OSC section
-    { type: 'textinput', id: 'host', label: 'OSC Target Hostname or IP', width: 8, regex: Regex.HOSTNAME, required: false },
+    { type: 'textinput', id: 'host', label: 'Holophonix Hostname or IP', tooltip: 'Used for both OSC and WebSocket (WS port defaults to 29175)', width: 8, regex: Regex.HOSTNAME, required: false },
     { type: 'textinput', id: 'targetPort', label: 'OSC Target Port (UDP)', width: 4, regex: Regex.PORT, required: false },
     { type: 'checkbox', id: 'listen', label: 'Listen for OSC Feedback', width: 4, default: false },
     { type: 'textinput', id: 'feedbackPort', label: 'OSC Feedback Port (UDP)', width: 4, regex: Regex.PORT, isVisible: (options) => options.listen === true },
