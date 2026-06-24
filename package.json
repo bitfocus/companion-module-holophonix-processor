@@ -25,5 +25,5 @@
     "cheerio": "^1.0.0-rc.12"
   },
   "prettier": "@companion-module/tools/.prettierrc.json",
-  "packageManager": "yarn@4.9.4"
+  "packageManager": "yarn@4.13.0"
 }
